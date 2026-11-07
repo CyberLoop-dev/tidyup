@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-label="tidyup banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0f1a"/>
+      <stop offset="1" stop-color="#13122b"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00e5ff"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <linearGradient id="arrowgrad" gradientUnits="userSpaceOnUse" x1="222" y1="0" x2="296" y2="0">
+      <stop offset="0" stop-color="#00e5ff"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .arrow { animation: nudge 1.6s ease-in-out infinite alternate; }
+    @keyframes nudge { from { transform: translateX(-6px); } to { transform: translateX(8px); } }
+  </style>
+
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+
+  <!-- messy files -->
+  <g transform="translate(70 80) rotate(-18 17 22)"><rect width="34" height="44" rx="6" fill="#0b0f1a" stroke="#00e5ff" stroke-width="3"/><line x1="8" y1="14" x2="26" y2="14" stroke="#00e5ff" stroke-width="3" stroke-linecap="round"/><line x1="8" y1="23" x2="26" y2="23" stroke="#00e5ff" stroke-width="3" stroke-linecap="round" opacity="0.7"/><line x1="8" y1="32" x2="19" y2="32" stroke="#00e5ff" stroke-width="3" stroke-linecap="round" opacity="0.5"/></g>
+  <g transform="translate(125 62) rotate(12 17 22)"><rect width="34" height="44" rx="6" fill="#0b0f1a" stroke="#8b5cf6" stroke-width="3"/><line x1="8" y1="14" x2="26" y2="14" stroke="#8b5cf6" stroke-width="3" stroke-linecap="round"/><line x1="8" y1="23" x2="26" y2="23" stroke="#8b5cf6" stroke-width="3" stroke-linecap="round" opacity="0.7"/><line x1="8" y1="32" x2="19" y2="32" stroke="#8b5cf6" stroke-width="3" stroke-linecap="round" opacity="0.5"/></g>
+  <g transform="translate(88 140) rotate(25 17 22)"><rect width="34" height="44" rx="6" fill="#0b0f1a" stroke="#c084fc" stroke-width="3"/><line x1="8" y1="14" x2="26" y2="14" stroke="#c084fc" stroke-width="3" stroke-linecap="round"/><line x1="8" y1="23" x2="26" y2="23" stroke="#c084fc" stroke-width="3" stroke-linecap="round" opacity="0.7"/><line x1="8" y1="32" x2="19" y2="32" stroke="#c084fc" stroke-width="3" stroke-linecap="round" opacity="0.5"/></g>
+  <g transform="translate(150 128) rotate(-8 17 22)"><rect width="34" height="44" rx="6" fill="#0b0f1a" stroke="#38bdf8" stroke-width="3"/><line x1="8" y1="14" x2="26" y2="14" stroke="#38bdf8" stroke-width="3" stroke-linecap="round"/><line x1="8" y1="23" x2="26" y2="23" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" opacity="0.7"/><line x1="8" y1="32" x2="19" y2="32" stroke="#38bdf8" stroke-width="3" stroke-linecap="round" opacity="0.5"/></g>
+  <g transform="translate(68 205) rotate(10 17 22)"><rect width="34" height="44" rx="6" fill="#0b0f1a" stroke="#a78bfa" stroke-width="3"/><line x1="8" y1="14" x2="26" y2="14" stroke="#a78bfa" stroke-width="3" stroke-linecap="round"/><line x1="8" y1="23" x2="26" y2="23" stroke="#a78bfa" stroke-width="3" stroke-linecap="round" opacity="0.7"/><line x1="8" y1="32" x2="19" y2="32" stroke="#a78bfa" stroke-width="3" stroke-linecap="round" opacity="0.5"/></g>
+  <g transform="translate(140 196) rotate(-22 17 22)"><rect width="34" height="44" rx="6" fill="#0b0f1a" stroke="#22d3ee" stroke-width="3"/><line x1="8" y1="14" x2="26" y2="14" stroke="#22d3ee" stroke-width="3" stroke-linecap="round"/><line x1="8" y1="23" x2="26" y2="23" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" opacity="0.7"/><line x1="8" y1="32" x2="19" y2="32" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" opacity="0.5"/></g>
+
+  <!-- arrow -->
+  <g class="arrow" fill="none" stroke="url(#arrowgrad)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M222 160 H292"/>
+    <path d="M274 140 L296 160 L274 180"/>
+  </g>
+
+  <!-- tidy folders -->
+  <g transform="translate(330 70)"><path d="M0 14 a8 8 0 0 1 8 -8 h26 l9 9 h46 a8 8 0 0 1 8 8 v46 a8 8 0 0 1 -8 8 h-81 a8 8 0 0 1 -8 -8 z" fill="#0b0f1a" stroke="#00e5ff" stroke-width="3.5" stroke-linejoin="round"/><text x="14" y="52" font-size="17" fill="#00e5ff" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-weight="600">Images</text></g>
+  <g transform="translate(330 140)"><path d="M0 14 a8 8 0 0 1 8 -8 h26 l9 9 h46 a8 8 0 0 1 8 8 v46 a8 8 0 0 1 -8 8 h-81 a8 8 0 0 1 -8 -8 z" fill="#0b0f1a" stroke="#8b5cf6" stroke-width="3.5" stroke-linejoin="round"/><text x="14" y="52" font-size="17" fill="#8b5cf6" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-weight="600">Docs</text></g>
+  <g transform="translate(330 210)"><path d="M0 14 a8 8 0 0 1 8 -8 h26 l9 9 h46 a8 8 0 0 1 8 8 v46 a8 8 0 0 1 -8 8 h-81 a8 8 0 0 1 -8 -8 z" fill="#0b0f1a" stroke="#c084fc" stroke-width="3.5" stroke-linejoin="round"/><text x="14" y="52" font-size="17" fill="#c084fc" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-weight="600">Code</text></g>
+
+  <!-- text -->
+  <text x="580" y="150" font-size="76" font-weight="700" fill="url(#accent)" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace">tidyup</text>
+  <text x="582" y="200" font-size="28" fill="#cbd5e1" font-family="'Segoe UI',Roboto,Helvetica,Arial,sans-serif">Messy folder in. Clean folder out.</text>
+  <text x="582" y="245" font-size="20" fill="#64748b" font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace">Python  •  preview first  •  undo anytime</text>
+</svg>
